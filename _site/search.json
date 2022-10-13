@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "reprex-custom-listings",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "articles/index.html",
     "title": "Gallery of Enterprise Examples",
     "section": "",
-    "text": "Access to Care Here is a test section where I would like the article description to appear: \nBike Prediction Here is a test section where I would like the article description to appear: \n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "articles/article2/index.html",
@@ -40,5 +40,54 @@
     "title": "Example: Article 1",
     "section": "",
     "text": "Background: This project combines US CENSUS population data with hospital data provided by Medicare. A linear model is used to determine if a county is over or under served.The source code and data for all of the assets can be found in our Access to Care GitHub repo."
+  },
+  {
+    "objectID": "default/index.html",
+    "href": "default/index.html",
+    "title": "Gallery using default listing type",
+    "section": "",
+    "text": "<% for (const content of contents) { %>\n<%- item.title %>\n<%- item.subtitle %>\n<% } %>\n\n```"
+  },
+  {
+    "objectID": "default/article1/index.html",
+    "href": "default/article1/index.html",
+    "title": "Example: Article 1",
+    "section": "",
+    "text": "Background: This project combines US CENSUS population data with hospital data provided by Medicare. A linear model is used to determine if a county is over or under served.The source code and data for all of the assets can be found in our Access to Care GitHub repo."
+  },
+  {
+    "objectID": "default/article2/index.html",
+    "href": "default/article2/index.html",
+    "title": "Example: Article 2",
+    "section": "",
+    "text": "This app provides real-time predictions of the number of bikes that will be available at the stations of Washington DC’s docked bike share, Capital Bikeshare. Creating and visualizing those predictions takes advantage of many different types of R content and the ability to deploy them on Connect."
+  },
+  {
+    "objectID": "default/article2/index.html#background",
+    "href": "default/article2/index.html#background",
+    "title": "Example: Article 2",
+    "section": "Background",
+    "text": "Background\nLike many metropolitan areas, the Washington DC area has bicycles available for short-term rental to commuters and tourists at docks around the city. The number of bikes at each of these docks ebbs and flows throughout the day, and the Capital Bikeshare program provides real-time data on the number of bikes available at each dock via an API."
+  },
+  {
+    "objectID": "folder-of-contents/article1/index.html",
+    "href": "folder-of-contents/article1/index.html",
+    "title": "Example: Article 1",
+    "section": "",
+    "text": "Background: This project combines US CENSUS population data with hospital data provided by Medicare. A linear model is used to determine if a county is over or under served.The source code and data for all of the assets can be found in our Access to Care GitHub repo."
+  },
+  {
+    "objectID": "folder-of-contents/article2/index.html",
+    "href": "folder-of-contents/article2/index.html",
+    "title": "Example: Article 2",
+    "section": "",
+    "text": "This app provides real-time predictions of the number of bikes that will be available at the stations of Washington DC’s docked bike share, Capital Bikeshare. Creating and visualizing those predictions takes advantage of many different types of R content and the ability to deploy them on Connect."
+  },
+  {
+    "objectID": "folder-of-contents/article2/index.html#background",
+    "href": "folder-of-contents/article2/index.html#background",
+    "title": "Example: Article 2",
+    "section": "Background",
+    "text": "Background\nLike many metropolitan areas, the Washington DC area has bicycles available for short-term rental to commuters and tourists at docks around the city. The number of bikes at each of these docks ebbs and flows throughout the day, and the Capital Bikeshare program provides real-time data on the number of bikes available at each dock via an API."
   }
 ]

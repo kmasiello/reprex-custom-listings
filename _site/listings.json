@@ -2,5 +2,16 @@
   {
     "listing": "/articles/index.html",
     "items": []
+  },
+  {
+    "listing": "/default/index.html",
+    "items": [
+      "/default/article1/index.html",
+      "/default/article2/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
