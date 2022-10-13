@@ -12,6 +12,10 @@
   },
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/folder-of-contents/article1/index.html",
+      "/folder-of-contents/article2/index.html",
+      "/folder-of-contents/index.html"
+    ]
   }
 ]

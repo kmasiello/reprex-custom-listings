@@ -3,9 +3,13 @@ title: "reprex-custom-listings"
 listing: 
     template: custom.ejs
     contents:
-      - contents.yml
-      # - folder-of-contents
+      # - contents.yml
+      - folder-of-contents
 ---
 
 
+Toggle between
+      - contents.yml
+      # - folder-of-contents
 
+**How should I format contents.yml to produce the same output?**

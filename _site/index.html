@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-contents',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date-meta','listing-last-update','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-contents"],
+      searchColumns: ["listing-title","listing-date-meta","listing-last-update","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -149,13 +149,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Toggle between - contents.yml # - folder-of-contents</p>
+<p><strong>How should I format contents.yml to produce the same output?</strong></p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <ul>
-  <li><a href=""></a></li>
+  <li><a href="./folder-of-contents/article1/index.html">Example: Article 1</a>The following are a set of multiple types of artifacts published to Connect. They share or build on the same base analysis. Their purpose is to demonstrate how each type of asset can showcase an aspect of the analysis. The idea is to enable you to reach your audiences more effectively and efficiently.</li>
+  <li><a href="./folder-of-contents/article2/index.html">Example: Article 2</a>This app provides real-time predictions of the number of bikes that will be available at the stations of Washington DC’s docked bike share, Capital Bikeshare. Creating and visualizing those predictions takes advantage of many different types of R content and the ability to deploy them on Connect.</li>
+  <li><a href="./folder-of-contents/index.html">Gallery of Enterprise Examples</a></li>
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
